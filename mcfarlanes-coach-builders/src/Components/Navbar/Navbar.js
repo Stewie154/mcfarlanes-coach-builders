@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/Navbar.css';
+import './Styles/_Navbar.scss';
 import {GiHamburgerMenu} from 'react-icons/gi';
 
 const Navbar = () => {
