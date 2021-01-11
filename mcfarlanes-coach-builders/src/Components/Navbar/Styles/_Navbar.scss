@@ -1,0 +1,58 @@
+@import '../../../Global\ Styles/Global';
+
+@import '../../../Global\ Styles/Colours';
+
+.navbar-container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background1;
+
+    .logo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-right: 2vw;
+        }
+    }
+
+    .nav-links-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        .nav-link {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+                transition: 0.2s ease-in-out;
+                color: $hover;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .menu-icon {
+        color: #fff;
+        font-size: 2rem;
+        cursor: pointer;
+        display: none;
+        &:hover {
+            color: $hover;
+            transition: 0.2s ease-in-out;
+        }
+    }
+}
+
