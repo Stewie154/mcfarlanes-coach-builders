@@ -1,0 +1,12 @@
+@import '../../../Global\ Styles/Global';
+@import '../../../Global\ Styles/Colours';
+@import '../../../Global\ Styles/MediaQueries';
+
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: $backgroundSecondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+@import '../../../Global\ Styles/Global';
+@import '../../../Global\ Styles/Colours';
+@import '../../../Global\ Styles/MediaQueries';
+
+.container {
+    width: 100%;
+    height: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .image {
+        width: 10%;
+
+    }
+}
+
