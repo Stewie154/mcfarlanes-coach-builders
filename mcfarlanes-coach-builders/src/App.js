@@ -1,6 +1,7 @@
-import Navbar from './Components/Navbar/Navbar';
 import React, {useState} from 'react';
+import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
+import About from './Components/About/About';
 
 function App() {
 
@@ -14,6 +15,7 @@ const toggleMenu = () => {
     <div className="App">
       <Navbar toggleMenu={toggleMenu} isOpen={isOpen}/>
       <Hero/>
+      <About/>
     </div>
   );
 }
