@@ -9,3 +9,9 @@
         @content;
     }
 }
+
+@mixin oneThousandpx {
+    @media screen and (max-width: 1000px) {
+        @content;
+    }
+}
