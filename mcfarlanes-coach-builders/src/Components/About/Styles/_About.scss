@@ -2,63 +2,112 @@
 @import '../../../Global\ Styles/Colours';
 @import '../../../Global\ Styles/MediaQueries';
 
-.about-container {
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $backgroundSecondary;
-    @include tablet {
-        flex-direction: column;
-    }
-    .about-left {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: red;
-        @include tablet {
-            width: 100%;
-            height: 70%;
-        }
-        h1 {
-            color: $textColor;
-            font-size: 2.5rem;
-            margin: 2vh 2vw;
-            text-decoration: underline;
-        }
-        p {
-            text-align: center;
-            color: $textColor;
-            margin: 2vh 2vw;
-            font-size: 1.5rem;
-        }
-        ul{
-            @include tablet {
-                text-align: left;
-            }
-            li {
-                color: $textColor;
-                font-size: 2rem;
-                margin: 2vh 2vw;
-            }
-        }
-    }
-    .about-right {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: yellow;
 
-        .working-pic {
-            width: 90%;
-            border: 1px solid #fff;
-            border-radius: 5px;
+.about-wrapper{
+    min-width: 100vw;
+    min-height: 90vh;
+    background-color: $backgroundSecondary;
+    padding-top: 6vh;
+    h1 {
+        color: $headerColor;
+        font-size: 3rem;
+        padding-top: 2vh;
+        text-decoration: underline;
+        text-align: center;
+        @include tablet {
+            font-size: 2.4rem;
+            padding-top: 0;
+        }
+        @include mobile {
+            font-size: 5.5vw;
+        }
+      
+    }
+    .about-container {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include oneThousandpx{
+            flex-direction: column;
+        }
+        .about-left {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            @include oneThousandpx {
+                width: 100%;
+                height: 70%;
+                justify-content: flex-start;
+            }
+            @include tablet {
+                min-height: 50%;
+            }
+            p {
+                text-align: center;
+                color: $paragraph;
+                margin: 2vh 2vw;
+                font-size: 2rem;  
+                @include oneThousandpx {
+                    font-size: 1.5rem;
+                }
+                @include tablet {
+                    font-size: 3.5vw;
+                }
+                @include mobile {
+                    font-size: 4.5vw;
+                }
+            }
+            ul{
+                
+                li {
+                    color: $paragraph;
+                    font-size: 2.5rem;
+                    margin: 2vh 2vw; 
+                    @include oneThousandpx {
+                        font-size: 1.5rem;
+                    }
+                    @include tablet {
+                        font-size: 3.5vw;
+                    }
+                    @include mobile {
+                        font-size: 5vw;
+                    }
+                }
+            }
+        }
+        .about-right {
+            width: 50%;
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include oneThousandpx {
+                width: 100%;
+                min-height: 40%
+            }
+            @include tablet {
+                min-height: 50%;
+            }
+    
+            .working-pic {
+                width: 90%;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                @include oneThousandpx {
+                    width: 40%;
+                }
+                @include tablet {
+                    width: 70%
+                }
+                @include mobile {
+                    width: 80%
+                }
+            }
         }
     }
 }
