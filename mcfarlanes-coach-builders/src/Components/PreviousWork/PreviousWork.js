@@ -1,7 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Styles/PreviousWork.scss';
+import { FaTimesCircle } from 'react-icons/fa';
 import { prevWorkData } from './PreviousWorkData';
 const PreviousWork = () => {
+
+    const [bigPic, setBigPic] = useState(false);
+
+    const toggleBigPic = () => {
+        setBigPic(!bigPic);
+    }
+
     return (
         <div className="wrapper">
             <div className="title-info">
@@ -12,9 +20,11 @@ const PreviousWork = () => {
                 {prevWorkData.map((job, index) => {
                     return (
                         <div className="job" key={index}>
-                        <img src={job.src} alt="Classic Car"/>
+                        <img src={job.src} alt="Classic Car" className="small-pic" onClick={toggleBigPic}/>
                         <h2>{job.title}</h2>
                         <p>{job.desc}</p>
+                        <FaTimesCircle className={ bigPic ? "display-icon" : "hide" } onClick={toggleBigPic}/>
+                        <img src={job.src} alt="Classic Car" className={ bigPic ? "display-big-pic" : "hide" }/>
                         </div>
                     )
                 } )}
