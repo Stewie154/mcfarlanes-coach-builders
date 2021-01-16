@@ -10,6 +10,9 @@ const Navbar = ({ isOpen, toggleMenu }) => {
             </div>
             <div className="nav-links-container" style={ isOpen ? {right: "0px"} : {right: "-1000px"} } >
                 <p className="nav-link">
+                    Home
+                </p>
+                <p className="nav-link">
                     About
                 </p>
                 <p className="nav-link">
