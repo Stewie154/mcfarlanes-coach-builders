@@ -1,0 +1,90 @@
+@import '../../../Global\ Styles/Global';
+@import '../../../Global\ Styles/Colours';
+@import '../../../Global\ Styles/MediaQueries';
+
+.wrapper {
+    width: 100vw;
+    min-height: 90vh;
+    background-color: $backgroundPrimary;
+    .title-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2vh 0;
+        h1 {
+            font-size: 3rem;
+            color: $headerColor;
+            padding: 1vh 0;
+            text-decoration: underline;
+            @include tablet {
+                font-size: 2.5rem;
+            }
+            @include mobile {
+                font-size: 2rem;
+            }
+        }
+        p{
+            font-size: 2rem;
+            color: $paragraph;
+            padding: 1vh 0;
+            text-align: center;
+            @include tablet {
+                font-size: 1.5rem;
+            }
+            @include mobile {
+                font-size: 1rem;
+            }
+        }
+    }
+    .prev-work-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        
+        .job {
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            background-color: $backgroundSecondary;
+            border-radius: 5px;
+            margin: 1vh 1vw;
+            @include tablet {
+                width: 45%;
+            }
+            @include mobile {
+                width: 90%;
+            }
+            img {
+                width: 90%;
+                margin: 1vh 1vw;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                transition: 0.2s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    width: 95%;
+                    opacity: 0.8;
+                }
+            }
+            h2 {
+                font-size: 1.5rem;
+                color: $headerColor;
+                padding: 1vh 1vw;
+                text-align: center;
+                text-decoration: underline;
+            }
+            p {
+                font-size: 1rem;
+                color: $paragraph;
+                padding: 1vh 1vw;
+                text-align: center;
+            }
+        }
+    }
+}
