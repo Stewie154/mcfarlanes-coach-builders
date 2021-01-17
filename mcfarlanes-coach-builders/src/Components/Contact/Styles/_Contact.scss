@@ -1,0 +1,85 @@
+@import '../../../Global\ Styles/Global';
+@import '../../../Global\ Styles/Colours';
+@import '../../../Global\ Styles/MediaQueries';
+
+.contact-wrapper {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $backgroundSecondary;
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: $headerColor;
+        text-decoration: underline;
+        padding: 1vh 0;
+    }
+    .map-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../../Images/Location-Screenshot.JPG');
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        .address {
+            width: 20%;
+            margin-right: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: $backgroundPrimary;
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 2vh 1vw;
+            @include oneThousandpx{
+                width: 30%;
+                margin-right: 30%;
+            }
+            @include mobile {
+                width: 50%;
+                margin-right: 42%;
+            }
+            h2 {
+                text-align: center;
+                text-decoration: underline;
+                padding: 1px;
+                margin: 4px 2px;
+            }
+            p {
+                text-align: center;
+                padding: 1px;
+            }
+            button {
+                padding: 5px;
+                border-radius: 5px;
+                width: 150px;
+                height: 50px;
+                margin: 1vh 2vw;
+                cursor: pointer;
+                background-color: rgb(34, 32, 32);
+                color: #fff;
+                font-size: 1.3rem;
+                transition: 0.2s ease-in-out;
+                &:hover {
+                    width: 170px;
+                    background-color: #fff;
+                    color:  rgb(34, 32, 32);
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    &:hover {
+                        color:rgb(34, 32, 32);
+                    }
+                }
+            }
+        }
+    }
+}
