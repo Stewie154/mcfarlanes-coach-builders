@@ -16,6 +16,12 @@
         color: $headerColor;
         text-decoration: underline;
         padding: 1vh 0;
+        @include tablet {
+            font-size: 2.5rem;
+        }
+        @include mobile {
+            font-size: 2rem;
+        }
     }
     .map-container {
         display: flex;
@@ -27,6 +33,9 @@
         background-position: center;
         background-repeat: no-repeat;
         border-bottom: 1px solid #fff;
+        @include mobile {
+            flex-direction: column;
+        }
         
         .info-box {
             width: 20%;
@@ -39,16 +48,36 @@
             border: 1px solid #000;
             border-radius: 5px;
             padding: 2vh 1vw;
+            @include oneFourHundred {
+                width: 40%;
+            }
             @include oneThousandpx{
                 width: 30%;
             }
+            @include tablet {
+                width: 40%;
+            }
             @include mobile {
-                width: 50%;
+                width: 80%;
+                height: auto;
+                padding: 0;
             }
             .inquiries {
                 font-size: 2rem;
                 color: $headerColor;
                 font-weight: bold;
+                
+                @include mobile {
+                    font-size: 1.7rem;
+                }
+            }
+            a {
+                text-decoration: none;
+                color: $paragraph;
+                transition: 0.2s ease-in-out;
+                &:hover {
+                    color: $btnHover;
+                }
             }
             h2 {
                 text-align: center;
@@ -57,12 +86,35 @@
                 padding: 1px;
                 margin: 4px 2px;
                 color: $headerColor;
+                @include mobile {
+                    font-size: 1.7rem;
+                }
             }
             p {
                 text-align: center;
                 font-size: 1.5rem;
                 padding: 1px;
                 color: $paragraph;
+                @include mobile {
+                    font-size: 1.3rem;
+                }
+            }
+            i {
+                font-size: 2rem;
+            }
+            #primary-email {
+                font-size: 1.2rem;
+                text-decoration: underline;
+                @include oneThousandpx {
+                    font-size: 1.5vw;
+                }
+                @include tablet {
+                    font-size: 2.5vw;
+                }
+                @include mobile {
+                    font-size: 5vw;
+                }
+                
             }
             button {
                 padding: 5px;
@@ -95,8 +147,15 @@
         height: 20vh;
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         align-items: center;
         background-color: $backgroundPrimary;
+        .email {
+            @include tablet {
+                width: 100vw;
+                text-align: center;
+            }
+        }
         a {
             text-decoration: none;
             color: $paragraph;
