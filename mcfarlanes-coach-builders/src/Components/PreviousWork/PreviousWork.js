@@ -12,7 +12,7 @@ const PreviousWork = () => {
 
         setJobs(prevState => (
             prevState.map( (job) => {
-                return index == job.id ? {...job, showingEnlarged: !job.showingEnlarged } : job
+                return index === job.id ? {...job, showingEnlarged: !job.showingEnlarged } : job
             }
         )
         ));
