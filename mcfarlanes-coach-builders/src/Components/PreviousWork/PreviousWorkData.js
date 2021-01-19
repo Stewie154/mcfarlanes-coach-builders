@@ -45,5 +45,6 @@ export const prevWorkData = [
         desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
         showingEnlarged: false,
         id: 5
-    }
+    },
+    
 ]

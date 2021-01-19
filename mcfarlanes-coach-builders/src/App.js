@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
 import PreviousWork from './Components/PreviousWork/PreviousWork';
 import Contact from './Components/Contact/Contact';
+import Links from './Components/Links/Links';
 
 function App() {
 
@@ -19,6 +20,7 @@ const toggleMenu = () => {
       <Hero/>
       <About/>
       <PreviousWork/>
+      <Links />
       <Contact/>
     </div>
   );
