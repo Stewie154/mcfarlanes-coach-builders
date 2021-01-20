@@ -3,7 +3,7 @@ import './Styles/_About.scss';
 import stockImage from '../../Images/Stock-Image-Worker.jpg';
 const About = () => {
     return (
-        <div className="about-wrapper">
+        <div className="about-wrapper" id="about">
             <h1>About McFarlane's Coach Builders</h1>
             <div className="about-container">
                 <div className="about-left">

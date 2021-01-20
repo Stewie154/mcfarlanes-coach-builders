@@ -1,6 +1,6 @@
 import alwynLee from '../../Images/Alwyn-Lee-Screenshot.JPG';
-import turrinoWheels from '../../Images/Turrino-Wire-Wheels.JPG';
-import projectHeaven from '../../Images/Project-Heaven.JPG';
+import turrinoWheels from '../../Images/Turrino-Wire-Wheels-Small.jfif';
+import projectHeaven from '../../Images/Project-Heaven-Small.jfif';
 
 export const linksData = [
     {
