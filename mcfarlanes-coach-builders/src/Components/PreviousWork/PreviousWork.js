@@ -20,7 +20,7 @@ const PreviousWork = () => {
     }
 
     return (
-        <div className="wrapper">
+        <div className="wrapper" id="previous-work">
             <div className="title-info">
                 <h1>Previous Work</h1>
                 <p>Feel free to take a look at some of Stephen's previous work below.</p>

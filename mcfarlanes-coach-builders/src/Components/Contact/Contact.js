@@ -5,7 +5,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 
 const Contact = () => {
     return (
-        <div className="contact-wrapper">
+        <div className="contact-wrapper" id="contact">
             <h1>Contact</h1>
             <div className="map-container">
                 <div className="info-box">
