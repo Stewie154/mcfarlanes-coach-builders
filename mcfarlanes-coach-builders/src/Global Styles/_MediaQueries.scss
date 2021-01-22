@@ -20,3 +20,8 @@
         @content;
     }
 }
+@mixin aboveOneFourHundred {
+    @media screen and (min-width: 1400px) {
+        @content
+    }
+}

@@ -1,7 +1,7 @@
-import car1 from '../../Images/Car1.jpg';
-import car2 from '../../Images/Car2.jpg';
-import car3 from '../../Images/Car3.jpg';
-import car4 from '../../Images/Car4.jpg';
+import car1 from '../../Images/Hero-Photos/Car-1.jpg';
+import car2 from '../../Images/Hero-Photos/Car-2.jpg';
+import car3 from '../../Images/Hero-Photos/Car-3.jpg';
+
 
 export const data = [
     {
@@ -15,9 +15,5 @@ export const data = [
     {
         name: "Pic 3",
         src: car3
-    },
-    {
-        name: "Pic 4",
-        src: car4
     }
 ]
