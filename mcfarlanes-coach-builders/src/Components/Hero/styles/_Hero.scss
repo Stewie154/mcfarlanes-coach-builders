@@ -9,4 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include aboveOneFourHundred {
+        height: 110vh;
+    }
 }
