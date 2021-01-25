@@ -62,7 +62,7 @@
             }
             .small-pic {
                 width: 90%;
-                margin: 1vh 1vw;
+                margin: 3vh 1vw 1vh;
                 border: 1px solid #fff;
                 border-radius: 5px;
                 transition: 0.2s ease-in-out;
@@ -75,16 +75,11 @@
             h2 {
                 font-size: 1.5rem;
                 color: $headerColor;
-                padding: 1vh 1vw;
+                padding: 0vh 1vw 2vh;
                 text-align: center;
                 text-decoration: underline;
             }
-            p {
-                font-size: 1rem;
-                color: $paragraph;
-                padding: 1vh 1vw;
-                text-align: center;
-            }
+        
         }
         .display-big-pic {
             width: 60%;

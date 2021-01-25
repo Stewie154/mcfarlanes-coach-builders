@@ -24,141 +24,121 @@ import pic20 from '../../Images/Previous-Work-Photos/Previous-Work-20.jpg';
 export const prevWorkData = [
     {
         src: pic1,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Jaguar SS100',
         showingEnlarged: false,
         id: 0
     },
      {
         src: pic2,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Delage',
         showingEnlarged: false,
         id: 1
     },
     {
         src: pic3,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Alfa Romeo Superheggera Frame',
         showingEnlarged: false,
         id: 2
     },
     {
         src: pic4,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Delahaye',
         showingEnlarged: false,
         id: 3
     },
     {
         src: pic5,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Delahaye',
         showingEnlarged: false,
         id: 4
     },
     {
         src: pic6,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Bentley',
         showingEnlarged: false,
         id: 5
     },
     {
         src: pic7,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Aston Martin DB3',
         showingEnlarged: false,
         id: 6
     },
     {
         src: pic8,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Jaguar SS100',
         showingEnlarged: false,
         id: 7
     },
     {
         src: pic9,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Talbot-Lago Tz6 Record',
         showingEnlarged: false,
         id: 8
     },
     {
         src: pic10,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Rolls Royce Silver Ghost',
         showingEnlarged: false,
         id: 9
     },
     {
         src: pic11,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Delage',
         showingEnlarged: false,
         id: 10
     },
     {
         src: pic12,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Talbot-Lago Superleggerra Frame',
         showingEnlarged: false,
         id: 11
     },
     {
         src: pic13,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Talbot-Lago Tz6 Record',
         showingEnlarged: false,
         id: 12
     },
     {
         src: pic14,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Daimler-Dart Rolling Chassis',
         showingEnlarged: false,
         id: 13
     },
     {
         src: pic15,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Talbot-Lago Superleggerra Frame',
         showingEnlarged: false,
         id: 14
     },
     {
         src: pic16,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Alfa Romeo 6c Body Shell',
         showingEnlarged: false,
         id: 15
     },
     {
         src: pic17,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Rolling Chassis with a Special Body',
         showingEnlarged: false,
         id: 16
     },
     {
         src: pic18,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Daimler Dart with Custom Coachwork',
         showingEnlarged: false,
         id: 17
     },
     {
         src: pic19,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Scul[tured Prototype Frame',
         showingEnlarged: false,
         id: 18
     },
     {
         src: pic20,
-        title: 'Enzo Ferrari 1970',
-        desc: 'Here will be a description for each individual car. It will probably be about two sentences long.',
+        title: 'Body Jig for Delahaye',
         showingEnlarged: false,
         id: 19
     },
