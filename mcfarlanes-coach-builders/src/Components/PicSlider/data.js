@@ -1,5 +1,5 @@
-import car1 from '../../Images/Hero-Photos/Car-1.jpg';
-import car2 from '../../Images/Hero-Photos/Car-2.jpg';
+import car1 from '../../Images/Hero-Photos/Car-2.jpg';
+import car2 from '../../Images/Hero-Photos/Car-1.jpg';
 import car3 from '../../Images/Hero-Photos/Car-3.jpg';
 
 

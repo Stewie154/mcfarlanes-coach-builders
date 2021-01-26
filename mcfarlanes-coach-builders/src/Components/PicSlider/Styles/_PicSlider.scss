@@ -16,7 +16,7 @@
         top: 50%;
         right: 32px;
         font-size: 3rem;
-        color: #000;
+        color: $paragraph;
         cursor: pointer;
         user-select: none;
         z-index: 0;
@@ -39,7 +39,7 @@
         top: 50%;
         left: 32px;
         font-size: 3rem;
-        color: #000;
+        color: $paragraph;
         cursor: pointer;
         user-select: none;
         z-index: 0;

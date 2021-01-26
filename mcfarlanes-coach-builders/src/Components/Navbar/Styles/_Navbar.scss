@@ -70,9 +70,12 @@
             height: 100vh;
             width: 50vw;
         }
+        @include mobile {
+            width: 100vw;
+        }
         
         .nav-link {
-            color: #fff;
+            color: $paragraph;
             font-size: 1.2rem;
             font-weight: bold;
             cursor: pointer;
