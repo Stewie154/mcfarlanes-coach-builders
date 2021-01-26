@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styles/_About.scss';
-import stockImage from '../../Images/Stock-Image-Worker.jpg';
+import aboutImage from '../../Images/Hero-Photos/Car-2.jpg';
 
 const About = () => {
     return (
@@ -17,7 +17,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="about-right">
-                    <img src={stockImage} alt="Coach Builder Working" className="working-pic" />
+                    <img src={aboutImage} alt="Coach Builder Working" className="working-pic" />
                 </div>
             </div>
         </div>
