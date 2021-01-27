@@ -19,7 +19,7 @@
         color: $paragraph;
         cursor: pointer;
         user-select: none;
-        z-index: 0;
+        z-index: 1;
         &:hover {
             color: $btnHover;
             transition: 0.2s ease-in-out;
@@ -42,7 +42,7 @@
         color: $paragraph;
         cursor: pointer;
         user-select: none;
-        z-index: 0;
+        z-index: 1;
         &:hover {
             color: $btnHover;
             transition: 0.2s ease-in-out;
@@ -60,6 +60,7 @@
     .image {
         width: 60vw;
         border-radius: 10px;
+        z-index: 0;
         @include tablet {
             width: 90vw;
         }
