@@ -40,7 +40,7 @@ const Contact = () => {
                 <a href="mailto:stevemcfarlane@btinternet.com" rel="noreferrer" target="_blank">
                     <p className="email">stevemcfarlane@btinternet.com</p>
                 </a>
-                <a href="https://www.stewartmcfarlane.me/" target="_blank" rel="noreferrer" >
+                <a href="https://www.linkedin.com/in/stephen-mcfarlane-429a8983/" target="_blank" rel="noreferrer" >
                     <AiOutlineLinkedin className="linked-in" />
                 </a>
                 <div className="phone-numbers-container">

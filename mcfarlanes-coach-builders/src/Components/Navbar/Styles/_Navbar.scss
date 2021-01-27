@@ -27,14 +27,15 @@
         align-items: center;
 
         .logo-picture {
-            width: 15%;
+            width: 25%;
             border-radius: 5px;
+            cursor: pointer;
             @include tablet {
-                width: 45%;
+                width: 55%;
                 
             }
             @include mobile {
-                width: 60%;
+                width: 70%;
             }
         }
 
