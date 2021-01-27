@@ -79,48 +79,51 @@
                 text-align: center;
                 text-decoration: underline;
             }
+            .big-pic-container {
+                width: 60%;
+                z-index: 6;
+                //code below fixes the image to the center of the screen (all screen sizes)
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                /* bring your own prefixes */
+                transform: translate(-50%, -50%);
+                @include oneThousandpx {
+                    width: 80%;
+                    
+                }
+                @include mobile {
+                    display: none;
+                }
+    
+                .big-pic {
+                    width: 100%;
+                }
+
+                
+                .display-icon {
+                    z-index: 2;
+                    font-size: 3rem;
+                    color: rgb(228, 35, 35);
+                    position: fixed;
+                    top: 10%;
+                    left: 90%;
+                    cursor: pointer;
+                    transition: 0.2s;
+                    &:hover {
+                        color: $btnHover;
+                        font-size: 3.5rem;
+                    }
+                   
+                    @include mobile {
+                        display: none;
+                    }
+                }
+                
+            }
         
         }
-        .display-big-pic {
-            width: 60%;
-            cursor: auto;
-            position: fixed;
-            top: 5%;
-            left: 20%;
-            z-index: 1;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            @include oneThousandpx {
-                width: 80%;
-                top: 25%;
-                left: 10%;
-            }
-            @include mobile {
-                display: none;
-            }
-            
-        }
-        .display-icon {
-            z-index: 2;
-            font-size: 3rem;
-            color: rgb(228, 35, 35);
-            position: fixed;
-            top: 10%;
-            left: 75%;
-            cursor: pointer;
-            transition: 0.2s;
-            &:hover {
-                color: rgb(233, 212, 21);
-                font-size: 3.5rem;
-            }
-            @include oneThousandpx {
-                top: 28%;
-                left: 81%;
-            }
-            @include mobile {
-                display: none;
-            }
-        }
+        
         .hide {
             display: none;
         }
