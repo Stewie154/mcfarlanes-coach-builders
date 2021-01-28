@@ -1,5 +1,6 @@
 {
   "name": "mcfarlanes-coach-builders",
+  "homepage": "http://www.mcfarlanescoachbuilders.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
